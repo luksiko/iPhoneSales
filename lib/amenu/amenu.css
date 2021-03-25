@@ -1,0 +1,44 @@
+.amenu__item {
+	word-wrap: normal;
+}
+
+.amenu__burger {
+	position: relative;
+}
+
+.amenu__burger-open .amenu__burger-list {
+	display: block;
+}
+
+.amenu__burger-btn:hover ~ .amenu__burger-list {
+	display: block;
+}
+
+.amenu__burger-btn {
+	display: none;
+	width: 24px;
+	height: 24px;
+	border: none;
+	cursor: pointer;
+	background: transparent url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgMzIiIGlkPSJHbHlwaCIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0xMywxNmMwLDEuNjU0LDEuMzQ2LDMsMywzczMtMS4zNDYsMy0zcy0xLjM0Ni0zLTMtM1MxMywxNC4zNDYsMTMsMTZ6IiBpZD0iWE1MSURfMjk0XyIvPjxwYXRoIGQ9Ik0xMywyNmMwLDEuNjU0LDEuMzQ2LDMsMywzczMtMS4zNDYsMy0zcy0xLjM0Ni0zLTMtM1MxMywyNC4zNDYsMTMsMjZ6IiBpZD0iWE1MSURfMjk1XyIvPjxwYXRoIGQ9Ik0xMyw2YzAsMS42NTQsMS4zNDYsMywzLDNzMy0xLjM0NiwzLTNzLTEuMzQ2LTMtMy0zUzEzLDQuMzQ2LDEzLDZ6IiBpZD0iWE1MSURfMjk3XyIvPjwvc3ZnPg==") no-repeat center;
+	background-size: contain;
+	transition: background-image 300ms;
+}
+
+.amenu__burger-btn:hover {
+	background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgMzIiIGlkPSJHbHlwaCIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0xMywxNmMwLDEuNjU0LDEuMzQ2LDMsMywzczMtMS4zNDYsMy0zcy0xLjM0Ni0zLTMtM1MxMywxNC4zNDYsMTMsMTZ6IiBpZD0iWE1MSURfMjk0XyIvPjxwYXRoIGQ9Ik0xMywyNmMwLDEuNjU0LDEuMzQ2LDMsMywzczMtMS4zNDYsMy0zcy0xLjM0Ni0zLTMtM1MxMywyNC4zNDYsMTMsMjZ6IiBpZD0iWE1MSURfMjk1XyIvPjxwYXRoIGQ9Ik0xMyw2YzAsMS42NTQsMS4zNDYsMywzLDNzMy0xLjM0NiwzLTNzLTEuMzQ2LTMtMy0zUzEzLDQuMzQ2LDEzLDZ6IiBpZD0iWE1MSURfMjk3XyIvPjwvc3ZnPg==");
+}
+
+.amenu__burger-btn.amenu__burger-btn_active {
+	display: block;
+}
+
+.amenu__burger-list {
+	position: absolute;
+	right: 0;
+	background-color: #fff;
+	border: 1px solid black;
+	list-style: none;
+	display: none;
+	padding: 30px;
+}
